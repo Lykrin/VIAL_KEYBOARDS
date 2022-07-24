@@ -1,4 +1,4 @@
-/* Copyright 2020 DZTECH <moyi4681@live.cn>
+/* Copyright 2019 DZTECH <moyi4681@live.cn>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -13,7 +13,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-#include "v2.h"
+#include "v1.h"
 
 #ifdef RGB_MATRIX_ENABLE
 const is31_led PROGMEM g_is31_leds[DRIVER_LED_TOTAL] = {

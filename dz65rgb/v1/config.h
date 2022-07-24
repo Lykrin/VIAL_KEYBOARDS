@@ -1,4 +1,4 @@
-/* Copyright 2020 DZTECH <moyi4681@live.cn>
+/* Copyright 2019 DZTECH <moyi4681@live.cn>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,8 +17,8 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x445A
-#define PRODUCT_ID      0x1421
-#define DEVICE_VER      0x0002
+#define PRODUCT_ID      0x1420
+#define DEVICE_VER      0x0001
 #define MANUFACTURER    DZTECH
 #define PRODUCT         DZ65RGB
 
@@ -36,8 +36,8 @@
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
-#define MATRIX_ROW_PINS { F0, F1, F4, E6, C6 }
-#define MATRIX_COL_PINS { F7, F6, F5, C7, B0, B1, B2, B3, B4, D7, D6, D4, D5, D3, D2 }
+#define MATRIX_ROW_PINS { B1, B10, B11, B14, B12 }
+#define MATRIX_COL_PINS { A6, A7, B0, B13, B15, A8, A15, B3, B4, B5, B8, B9, C13, C14, C15 }
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
